@@ -16,7 +16,6 @@ const FadeIn = ({ children, delay = 0, className = "" }) => (
   </motion.div>
 );
 
-
   // Auto-scroll chat body seamlessly
   const chatBodyRef = React.useRef(null);
   React.useEffect(() => {
