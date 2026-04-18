@@ -16,12 +16,6 @@ const FadeIn = ({ children, delay = 0, className = "" }) => (
   </motion.div>
 );
 
-// Embedded AI Chatbot Component
-const Chatbot = () => {
-  const [messages, setMessages] = React.useState([
-    { sender: 'bot', text: "Hi! I'm Sandena's AI Assistant 🤖 I can answer quick questions about his skills, vision, or contact details." }
-  ]);
-  const [input, setInput] = React.useState("");
 
   // Auto-scroll chat body seamlessly
   const chatBodyRef = React.useRef(null);
@@ -244,8 +238,8 @@ function App() {
                   I'm always open to discussing new chemical engineering projects, creative collaborations, or career opportunities!
                 </p>
                 <div className="contact-links">
-                  <a href="mailto:sandena.umesh@gmail.com" className="contact-btn">✉️ Email Me</a>
-                  <a href="https://www.linkedin.com/in/sanden-umesh-012a50382" target="_blank" rel="noreferrer" className="contact-btn">💼 LinkedIn</a>
+                  <a href="mailto:sandena.umesh@gmail.com" className="contact-btn">✉️ Email Me: sandena.umesh@gmail.com </a>
+                  <a href="https://www.linkedin.com/in/sanden-umesh-012a50382" target="_blank" rel="noreferrer" className="contact-btn">💼 LinkedIn : Sandena Umesh </a>
                 </div>
               </div>
 
